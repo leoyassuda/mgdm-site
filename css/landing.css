@@ -1,0 +1,18 @@
+html,body {
+	font-family: 'Oswald', sans-serif !important;
+}
+.hero.is-dark {
+	background:  url('https://unsplash.it/1200/900?random') no-repeat !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.hero .nav, .hero.is-success .nav {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.hero .subtitle {
+	padding: 3rem 0 !important;
+	line-height: 1.5 !important;
+}
