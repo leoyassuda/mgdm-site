@@ -2,7 +2,7 @@ html,body {
 	font-family: 'Oswald', sans-serif !important;
 }
 .hero.is-dark {
-	background:  url('https://unsplash.it/1200/900?random') no-repeat !important;
+	background:  url('/img/banner_home.jpg') no-repeat !important;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

@@ -1,7 +1,33 @@
 @charset "utf-8";
 @import "../node_modules/bulma/bulma.sass";
-
 //Import Google Font
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,400');
 
 $family-primary: 'Oswald', sans-serif;
+
+#navbarMenu.is-active {
+  display: contents;
+}
+
+#menu-navigation {
+  position: absolute;
+  top: 80px;
+  font-size: 1.5rem;
+  a.navbar-item:hover {
+    background: transparent;
+    font-size: 5em;
+  }
+  .navbar-item img {
+    max-height: 5em;
+  }
+  .menu-list a:hover {
+    background-color: #f5f5f530;
+    font-weight: bold;
+  }
+}
+.footer{
+  padding: 2rem 1.5rem 1rem;
+}
+.copyright-footer{
+  padding-top: 1em;
+}
