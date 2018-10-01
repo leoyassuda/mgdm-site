@@ -9634,13 +9634,17 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+#navbar-item-logo {
+  max-height: 2.75rem;
+}
+
 #navbarMenu.is-active {
   display: contents;
 }
 
 #menu-navigation {
   position: absolute;
-  top: 80px;
+  top: 50px;
   font-size: 1.5rem;
 }
 
