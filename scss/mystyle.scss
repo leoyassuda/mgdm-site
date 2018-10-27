@@ -6,7 +6,7 @@
 $family-primary: 'Oswald', sans-serif;
 
 #navbar-item-logo{
-  max-height: 2.75rem;
+  max-height: 3.75rem;
 }
 
 #navbarMenu.is-active {
@@ -29,6 +29,54 @@ $family-primary: 'Oswald', sans-serif;
     font-weight: bold;
   }
 }
+
+.section-categories-info {
+  .column {
+    overflow: hidden;
+  }
+  .blocks-in {
+    float: left;
+    width: 150%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.section-categories-info .category-info {
+  color: #ffffff;
+  position: relative;
+  //bottom: 18em;
+  bottom: 28em;
+  left: -7em;
+}
+
+.section-categories-info:hover{
+  .category-info-button{
+    opacity: 1;
+    transition:opacity .3s ease-out;
+    -webkit-transition:opacity .3s ease-out;
+    -o-transition:opacity .3s ease-out;
+    -moz-transition:opacity .3s ease-out;
+  }
+}
+
+.category-info-button{
+  left: 2.5em !important;
+  opacity: 0;
+  padding-top: 1.75em;
+  transition:opacity .3s ease-in;
+  -webkit-transition:opacity .3s ease-in;
+  -o-transition:opacity .3s ease-in;
+  -moz-transition:opacity .3s ease-in;
+  a.button {
+    //width: 75%;
+    width: 50%;
+    cursor: pointer;
+  }
+}
+
 .footer{
   padding: 2rem 1.5rem 1rem;
 }
